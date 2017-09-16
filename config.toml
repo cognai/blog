@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://cognai.github.io" #without ending slash
+baseurl = "https://cogn.ai" #without ending slash
 languageCode = "en-us"
 title = "CognAI"
 theme = "hugo-identity-theme"
@@ -33,7 +33,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Link custom assets relative to /static
   #custom_js  = [""]
   #custom_css = ["background.css", "icons.css"]
-  custom_css = ["custom.css"]
+  # custom_css = ["custom.css"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
@@ -46,8 +46,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # If name is not set, author is used
     # name = "CognAI"
     # Avatars can be written to images/avatars/
-    avatar = "brain.svg"
-    logo = "logo01.svg"
+    avatar = "logo02.svg"
+    # logo = "logo02.svg"
     position = """Machine Learning - Data - AI
     Consultancy"""
     # livesIn = "Hong Kong"
