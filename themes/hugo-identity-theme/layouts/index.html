@@ -24,6 +24,7 @@
           <section id="main">
             <header>
               <span class="avatar"><img src="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | relURL  }}" alt="avatar" height="130" width="130" ></span>
+              <span class="logo"><img src="{{ .Site.Params.personal.logo| printf "/images/%s" | relURL  }}" alt="logo" ></span>
               <h1 class="name">
                 {{ with .Site.Params.personal.name }}
                   {{ . }}

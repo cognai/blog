@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://cogn.ai" #without ending slash
+baseurl = "http://cognai.github.io" #without ending slash
 languageCode = "en-us"
 title = "CognAI"
 theme = "hugo-identity-theme"
@@ -33,6 +33,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Link custom assets relative to /static
   #custom_js  = [""]
   #custom_css = ["background.css", "icons.css"]
+  custom_css = ["custom.css"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
@@ -43,9 +44,10 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Personal data
   [params.personal]
     # If name is not set, author is used
-    name = "CognAI"
+    # name = "CognAI"
     # Avatars can be written to images/avatars/
     avatar = "brain.svg"
+    logo = "logo01.svg"
     position = """Machine Learning - Data - AI
     Consultancy"""
     # livesIn = "Hong Kong"
@@ -112,17 +114,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     link = "https://twitter.com/cogn_ai"
     target = "_blank"
 
-  # [[params.social]]
-  #   title = "Instagram"
-  #   icon = "fa-instagram"
-  #   link = "#"
-  #   target = "_blank"
-
-  # [[params.social]]
-  #   title = "Facebook"
-  #   icon = "fa-facebook"
-  #   link = "#"
-  #   target = "_blank"
+  [[params.social]]
+    title = "Githu"
+    icon = "fa-github"
+    link = "https://github.com/cognai"
+    target = "_blank"
 
   # Footer settings
   [params.footer]
